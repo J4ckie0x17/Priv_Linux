@@ -17,3 +17,6 @@ wget https://raw.githubusercontent.com/J4ckie0x17/Priv_Linux/main/Priv_Linux.sh
 chmod +x Priv_Linux
 ./Priv_Linux
 ```
+# How it works
+In the script you will find that you have 9 options, tool is that everything that you are going to execute will be saved in the 
+folder **priv_linux_results**, and inside you will find the result of the same in an orderly manner.
