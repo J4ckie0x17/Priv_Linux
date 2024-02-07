@@ -8,5 +8,11 @@
 With both options works.
 ```sh
 git clone https://github.com/J4ckie0x17/Priv_Linux
+cd /Priv_Linux
+chmod +x Priv_Linux
+./Priv_Linux
+Or you can
 wget https://raw.githubusercontent.com/J4ckie0x17/Priv_Linux/main/Priv_Linux.sh
+chmod +x Priv_Linux
+./Priv_Linux
 ```
