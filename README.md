@@ -1,11 +1,9 @@
 # Priv_Linux - Best way to enumerate your Privilage Escalation
-<img src="https://github.com/J4ckie0x17/Priv_Linux/blob/88b05bd190b15ea9612f8cdf9a03e9e9c326a7fb/images/logo.png" alignheight="100" width="100" />
+<img src="https://github.com/J4ckie0x17/Priv_Linux/blob/88b05bd190b15ea9612f8cdf9a03e9e9c326a7fb/images/logo.png" alignheight="300" width="300" />
 <br>
 **Priv_Linux** automates the basic/advanced enumeration privilage escalation when your facing Linux/Unix/Mac hosts.
 <br>
 **This is based on my own checks at** --> https://j4ckie0x17.gitbook.io/notes-pentesting/escalada-de-privilegios/linux
-![imagen](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/6f97965c-2727-4fa0-afa0-88d5e7956c9c)
-
 # How to Install
 With both options works.
 ```sh
