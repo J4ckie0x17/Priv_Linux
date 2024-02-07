@@ -5,8 +5,8 @@
 ![imagen](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/6f97965c-2727-4fa0-afa0-88d5e7956c9c)
 
 # How to Install
+With the both options works.
 ```sh
 git clone https://github.com/J4ckie0x17/Priv_Linux
-or
 wget https://raw.githubusercontent.com/J4ckie0x17/Priv_Linux/main/Priv_Linux.sh
 ```
