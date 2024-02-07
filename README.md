@@ -1,5 +1,5 @@
 # Priv_Linux - Best way to enumerate your Privilage Escalation
-<img src="https://github.com/J4ckie0x17/Priv_Linux/blob/88b05bd190b15ea9612f8cdf9a03e9e9c326a7fb/images/logo.png" alignheight="1000" width="1000" />
+<img src="https://github.com/J4ckie0x17/Priv_Linux/blob/88b05bd190b15ea9612f8cdf9a03e9e9c326a7fb/images/logo.png" alignheight="100" width="100" />
 <br>
 **Priv_Linux** automates the basic/advanced enumeration privilage escalation when your facing Linux/Unix/Mac hosts.
 <br>
