@@ -6,5 +6,9 @@
 
 # How to Install
 ```sh
-git clone 
+git clone https://github.com/J4ckie0x17/Priv_Linux
+```
+## OR
+```sh
+wget https://raw.githubusercontent.com/J4ckie0x17/Priv_Linux/main/Priv_Linux.sh
 ```
