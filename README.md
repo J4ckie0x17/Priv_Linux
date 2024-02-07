@@ -1,4 +1,4 @@
-# Priv_Linux - Best way to enumerate you Privilage Escalation
+# Priv_Linux - Best way to enumerate your Privilage Escalation
 **Priv_Linux** automates the basic/advanced enumeration privilage escalation when your facing Linux/Unix/Mac hosts.
 <br>
 **This is based on my own checks at** --> https://j4ckie0x17.gitbook.io/notes-pentesting/escalada-de-privilegios/linux
