@@ -3,7 +3,7 @@
 *Priv_Linux* automates the basic/advanced enumeration privilage escalation when your facing Linux/Unix/Mac hosts.
 <br>
 *This is based on my own checks at* --> https://j4ckie0x17.gitbook.io/notes-pentesting/escalada-de-privilegios/linux
-**priv_linux_results**
+
 # How to Install
 With both options works.
 ```sh
