@@ -23,4 +23,5 @@ folder **priv_linux_results**, and inside you will find the result of the same i
 ![imagen](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/6604c0ff-4548-4a55-8d89-df0acc7ec3b4)
 
 # Proof of Concept
-![2024-02-07 15-12-59](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/6822922b-2b84-44ac-bf89-44d27d94fb32)
+https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/ac6febef-3b01-4f7b-9c7c-f21893d1aab4
+
