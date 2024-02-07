@@ -21,11 +21,9 @@ chmod +x Priv_Linux
 In the script you will find that you have 9 options, tool is that everything that you are going to execute will be saved in the 
 folder **priv_linux_results**, and inside you will find the result of the same in an orderly manner.
 ![imagen](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/6604c0ff-4548-4a55-8d89-df0acc7ec3b4)
-![imagen](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/bb0001a5-6933-4c11-a6fd-e4fb7918889d)
-![imagen](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/e8af8dd8-d32d-4a36-bbd3-05ebb4fbd30c)
 
 # Proof of Concept
-![priv_linux](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/b6a12d88-47ff-4cb8-b531-4635152832ce)
+![2024-02-07 15-20-03](https://github.com/J4ckie0x17/Priv_Linux/assets/98595278/d833bbb4-8bf6-47a1-8eda-9fd7f7b3faaa)
 
 
 
