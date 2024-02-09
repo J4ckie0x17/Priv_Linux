@@ -30,6 +30,11 @@ trap exit_handler SIGINT
 # Folder for output files
 output_folder="priv_linux_results"
 
+# Function to pause and wait for user input
+pause() {
+    read -p "Press Enter to continue..."
+    echo
+}
 # Check if the output folder exists, if not, create it
 if [ ! -d "$output_folder" ]; then
     mkdir "$output_folder"
@@ -80,6 +85,7 @@ while true; do
             echo -e "${blue}=== Commands Executed on the System ===${reset}"
             echo -e "${blue}=========================================${reset}"
             ps -eo user,command | tee -a "$output_file"
+            pause
             ;;
         2) 
             # File for SUID, sudo, and capabilities permissions
@@ -122,6 +128,7 @@ while true; do
             echo -e "${blue}=========================================${reset}"
             getcap -r / 2>/dev/null | tee -a "$output_file"
             echo -e "${violet}Visit https://gtfobins.github.io/ to check for matching capabilities${reset}"
+            pause
             ;;
         3)
             # File for internal ports
@@ -138,6 +145,7 @@ while true; do
             echo -e "${blue}============== ss -tulpn ================${reset}"
             echo -e "${blue}=========================================${reset}"
             ss -tulpn | tee -a "$output_file"
+            pause
             ;;
         4)
             # File for folders with write and/or read permissions
@@ -154,6 +162,7 @@ while true; do
             echo -e "${blue}============ Writable files =============${reset}"
             echo -e "${blue}=========================================${reset}"
             find / -writable 2>/dev/null | grep -v -i -E 'proc|run|sys|dev' | tee -a "$output_file"
+            pause
             ;;
         5)
             # File for folders with write and/or read permissions
@@ -200,6 +209,7 @@ while true; do
             echo -e "${blue}========== /proc/sched_debug ===========${reset}"
             echo -e "${blue}=========================================${reset}"
             cat /proc/sched_debug | tee -a "$output_file"
+            pause
             ;;
         6)
             # File for folders with write and/or read permissions
@@ -231,6 +241,7 @@ while true; do
             echo -e "${blue}================= ps aux ================${reset}"
             echo -e "${blue}=========================================${reset}"
             ps aux | tee -a "$output_file"
+            pause
             ;;
         7)
             # File for folders with write and/or read permissions
@@ -247,6 +258,7 @@ while true; do
             echo -e "${blue}=========== lsb_release -a ==============${reset}"
             echo -e "${blue}=========================================${reset}"
             lsb_release -a | tee -a "$output_file"
+            pause
             ;;    
         8)
             # File for folders with write and/or read permissions
@@ -269,6 +281,7 @@ while true; do
             diff <(echo "$old_process") <(echo "$new_process") | grep "[\>\<]" | grep -vE "procmon|command|kworker"
             old_process=$new_process
             done
+            pause
             # Made by s4vitar
             ;;
         10)
