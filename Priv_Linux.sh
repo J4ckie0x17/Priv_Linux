@@ -281,7 +281,6 @@ while true; do
             diff <(echo "$old_process") <(echo "$new_process") | grep "[\>\<]" | grep -vE "procmon|command|kworker"
             old_process=$new_process
             done
-            pause
             # Made by s4vitar
             ;;
         10)
