@@ -16,7 +16,7 @@ menu() {
 
 # Print the menu
 menu
-echo -e "REMINADER: All the results will be saved at folder ${red}priv_linux_results${reset}, Example: (currentpath)/priv_linux_results/basic_commands.txt"
+echo -e "REMINDER: All the results will be saved at folder ${red}priv_linux_results${reset}, Example: (currentpath)/priv_linux_results/basic_commands.txt"
 echo
 # Function to handle SIGINT signal (Ctrl + C)
 exit_handler() {
