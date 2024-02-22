@@ -14,10 +14,6 @@ menu() {
     echo -e "${red}|-----------------------------|${reset}\n"
 }
 
-# Print the menu
-menu
-echo -e "REMINDER: All the results will be saved at folder ${red}priv_linux_results${reset}, Example: (currentpath)/priv_linux_results/basic_commands.txt"
-echo
 # Function to handle SIGINT signal (Ctrl + C)
 exit_handler() {
     echo -e "\n${red}Exiting...${reset}"
@@ -37,6 +33,10 @@ fi
 
 while true; do
     # Show menu
+    menu
+    # Print the menu
+    echo -e "REMINDER: All the results will be saved at folder ${red}priv_linux_results${reset}, Example: (currentpath)/priv_linux_results/basic_commands.txt"
+    echo
     echo -e "${red}Select an option:${reset}"
     echo
     echo -e "1. ${green}Basic Commands${reset}"
@@ -51,7 +51,7 @@ while true; do
     echo -e "10. ${red}Exit${reset}"
     echo
     # Read user selection
-    read -p "Option: " option
+    read -r -p "Option: " option
 
     # Execute the selected option
     case $option in
@@ -292,10 +292,14 @@ while true; do
             ;;
         *)
             echo "Invalid option. Please select a number from 1 to 10."
+            echo
             ;;
     esac
 
     # Pause to show results and wait for next selection
     read -p "Press Enter to continue..."
+    clear  # This will clear the screen when Enter is pressed
+    echo -e "\033[2J\033[H"  # This will scroll the screen up
     echo
+
 done
